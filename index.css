@@ -1,0 +1,61 @@
+#youtube_icon{
+
+    height: fit-content;
+    color: red;
+
+
+}
+#title{
+    height: 100px;
+    width: 100%;
+    
+
+}
+#search{
+    border-radius: 50px;
+
+}
+#mic{
+    margin-left: 20px;
+}
+.vertical-menu{
+  position:fixed;
+    width: 150px;
+    height:calc(100vh-100px)
+
+  }
+  
+  .vertical-menu a {
+    background-color:white;
+    color: black;
+    display:flex;
+    padding: 20px;
+   
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  #video_page{
+     
+  width:calc(100%-250px);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left:220px;
+  padding:10px;
+  display: grid;
+  grid-template-columns: repeat(4,25%);
+  width: auto;
+  grid-gap: 10px 5px;
+  overflow-x: hidden;  
+}
+.card-des{
+ overflow:hidden;
+  height: 30px;
+}
+.thumbnails{
+  height: 50px;
+  height:50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
